@@ -1,0 +1,7 @@
+# Nmap 7.94SVN scan initiated Fri Apr  3 16:55:55 2026 as: nmap -sn -oN local_hosts.txt 172.20.16.0/20
+Nmap scan report for SUNILJHA.mshome.net (172.20.16.1)
+Host is up (0.00061s latency).
+MAC Address: 00:15:5D:DC:AF:AD (Microsoft)
+Nmap scan report for 172.20.22.61
+Host is up.
+# Nmap done at Fri Apr  3 16:56:05 2026 -- 4096 IP addresses (2 hosts up) scanned in 9.87 seconds

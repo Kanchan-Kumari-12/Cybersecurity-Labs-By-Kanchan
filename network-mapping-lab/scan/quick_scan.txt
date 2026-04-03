@@ -1,0 +1,14 @@
+# Nmap 7.94SVN scan initiated Fri Apr  3 16:59:26 2026 as: nmap -F -oN quick_scan.txt 172.20.22.61/20
+Nmap scan report for SUNILJHA.mshome.net (172.20.16.1)
+Host is up (0.00079s latency).
+Not shown: 99 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: 00:15:5D:DC:AF:AD (Microsoft)
+
+Nmap scan report for 172.20.22.61
+Host is up (0.000020s latency).
+All 100 scanned ports on 172.20.22.61 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+
+# Nmap done at Fri Apr  3 16:59:38 2026 -- 4096 IP addresses (2 hosts up) scanned in 11.63 seconds
