@@ -1,16 +1,16 @@
-# 🔍 Network Reconnaissance Lab — Nmap + Telnet
+#  Network Reconnaissance Lab — Nmap + Telnet
 
 > A hands-on blue team / SOC analyst project demonstrating network scanning, service enumeration, and manual service verification using industry-standard tools in a controlled home lab environment.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project simulates a real-world network reconnaissance workflow performed by SOC analysts and penetration testers. Using **Nmap** for port scanning and service detection, and **Telnet** for manual service verification, I identified and documented all exposed services on a vulnerable target machine deployed in a local Docker lab.
 
 ---
 
-## 🛠️ Tools & Environment
+##  Tools & Environment
 
 | Tool | Purpose |
 |---|---|
@@ -22,7 +22,7 @@ This project simulates a real-world network reconnaissance workflow performed by
 
 ---
 
-## 🧪 Lab Setup
+##  Lab Setup
 
 ```
 ┌─────────────────────────────────────┐
@@ -41,7 +41,7 @@ This project simulates a real-world network reconnaissance workflow performed by
 
 ---
 
-## 🔎 Methodology
+##  Methodology
 
 ### Step 1 — Basic Port Scan
 ```bash
@@ -71,7 +71,7 @@ Manually verified Telnet access and confirmed unauthenticated shell access risk.
 
 ---
 
-## 📊 Findings — Open Ports & Services
+##  Findings — Open Ports & Services
 
 | Port | Service | Version | Risk Level |
 |---|---|---|---|
@@ -99,7 +99,7 @@ Manually verified Telnet access and confirmed unauthenticated shell access risk.
 
 ---
 
-## ⚠️ Key Vulnerabilities Identified
+##  Key Vulnerabilities Identified
 
 ### 🔴 Critical — Telnet Service (Port 23)
 - Telnet transmits data in **plaintext** — credentials visible in packet capture
@@ -128,7 +128,7 @@ Manually verified Telnet access and confirmed unauthenticated shell access risk.
 
 ---
 
-## 📋 Telnet Access — Evidence
+##  Telnet Access — Evidence
 
 ```
 Trying 172.17.0.2...
@@ -153,7 +153,7 @@ eth0  inet addr:172.17.0.2
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 - How to perform **systematic network reconnaissance** using Nmap
 - Difference between basic scans and **service version detection** (`-sV`)
@@ -164,7 +164,7 @@ eth0  inet addr:172.17.0.2
 
 ---
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 > This project was conducted entirely in a **controlled home lab environment** using intentionally vulnerable software (Metasploitable2) designed for security education. No real systems were scanned or accessed. All testing was performed legally and ethically.
 
